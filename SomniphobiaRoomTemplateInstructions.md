@@ -1,5 +1,5 @@
 # Room Design Template Instructions
-_Note: In Somniphobia, I was in charge of a large part of designing and implementing procedural level generation into the game. To allow the designers to work on individual rooms
+_Context: In Somniphobia, I was in charge of a large part of designing and implementing procedural level generation into the game. To allow the designers to work on individual rooms
 of the game's labyrinth as well as test a given room separate from the entire generated level, we utilized Unreal's level streaming to allow each room to be its own level that then
 has its information fed into a couple of data tables to then automatically be integrated into the procedural generation algorithm. I wanted the designers to be able to create new
 rooms and implement them into the algorithm without having to ask me how to do so, so I put together this document to teach them how._
